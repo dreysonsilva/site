@@ -4,7 +4,6 @@
 }
 
 div.menu{
-    width: 900px;
     margin: 0 auto;
     padding: 10px;
     border-radius: 7px;
@@ -29,4 +28,9 @@ div.corpo{
     height: 400px;
     margin: 0;
     padding: 0;
+}
+div.menu > a.cv{
+    background:whitesmoke;
+    border-radius: 5px;
+    text-decoration: none;
 }
