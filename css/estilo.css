@@ -24,8 +24,7 @@ div.menu > a:hover{
     text-decoration: underline;
 }
 div.corpo{
-    background: silver;
-    height: 400px;
+    border-top:1px dotted #345;
     margin: 0;
     padding: 0;
 }
