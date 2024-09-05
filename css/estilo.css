@@ -25,11 +25,14 @@ div.menu > a:hover{
 }
 div.corpo{
     border-top:1px dotted #345;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    width: 90%;
 }
 div.menu > a.cv{
-    background:whitesmoke;
+    background:rgb(4, 155, 243);
     border-radius: 5px;
     text-decoration: none;
+    font-weight: bold;
+    color:#FFF
 }
