@@ -15,7 +15,7 @@ div.menu{
 div.menu > a{
     color:darkslategray;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Courier New', Courier, monospace;
     margin: 0 10px;
     padding: 5px;
@@ -23,16 +23,17 @@ div.menu > a{
 div.menu > a:hover{
     text-decoration: underline;
 }
-div.corpo{
-    border-top:1px dotted #345;
-    margin: 0 auto;
-    padding: 0;
-    width: 90%;
-}
 div.menu > a.cv{
     background:rgb(4, 155, 243);
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
     color:#FFF
+}
+
+div.corpo{
+    border-top:1px dotted #345;
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
 }
