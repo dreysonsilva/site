@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
 }
 header{
     font-family: "Playwrite CU", cursive;
@@ -45,6 +44,7 @@ nav.menu > a{
 nav.menu > a:hover{
     text-decoration: underline;
 }
+
 nav.menu > a.cv{
     background:rgb(4, 155, 243);
     border-radius: 5px;
@@ -52,20 +52,17 @@ nav.menu > a.cv{
     font-weight: bold;
     color:#FFF
 }
+
 article{
     width: 85%;
     margin: 0 auto;
-    font-size: 150%;
     line-height: 1.9;
     padding: 10px;
-
     text-align: center;
 }
 
-
 article >h1 >p{
     font-size: 120%;
-
 }
 
 footer{
