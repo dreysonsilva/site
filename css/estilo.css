@@ -17,7 +17,6 @@ header > h1{
     margin: 0 auto; 
 }
 
-
 nav{
     font-size: 40%;
     margin: 0 auto; 
@@ -25,7 +24,9 @@ nav{
     padding: 10px;    
     text-align: center;    
 }
-
+a#linkedin{
+    width: 20%;
+}
 nav > a{
     color:darkslategray;
     text-decoration: none;
@@ -52,6 +53,11 @@ article{
     line-height: 1.9;
     padding: 10px;
     text-align: center;
+}
+
+article img:visited{
+    width: 20px;
+    border: #FFF;
 }
 
 article >h1 >p{
