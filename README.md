@@ -31,12 +31,12 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ---
 
 ## ✨ Funcionalidades
-- [x] site pessoal
-      -Sobre
-      -Habilidades
-      -Projetos
-      -Contato
-      -Suporte
+- [x] site pessoal<br>
+      *-Sobre <br>
+      -Habilidades<br>
+      -Projetos<br>
+      -Contato <br>
+      -Suporte** <br>
 - [x] baixar aqruivos
 
 ## Autor
