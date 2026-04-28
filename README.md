@@ -31,8 +31,13 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ---
 
 ## ✨ Funcionalidades
+- [x] site pessoal
+      -Sobre
+      -Habilidades
+      -Projetos
+      -Contato
+      -Suporte
 - [x] baixar aqruivos
-- [ ] site pessoal
 
 ## Autor
 Nome: Dreyson Santiago
