@@ -3,28 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terminal de Acesso</title>
-	<link rel="stylesheet" href="css/estilo.css">
-	<link rel="shortcut icon" href="support/img/favicon.ico" />	
+    <title>Dreyson Santiago | Portfólio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+     <link rel="stylesheet" href="css/estilo.css">
 </head>
-	<body>
-		<header>
-			<h1>[Seja bem vindo(a)]</h1>
-			<p>Selecione módulo de operação...</p>
-		</header>
+<body>    
+    <header>
+        <div class="logo">DREYSON<span>SANTIAGO</span></div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>                
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="https://www.dreyson.com.br/support/index.html" class="suporteHover" target="_blank">Suporte</a></li>
+            </ul>
+        </nav>
+    </header>
 
-		<main class="container">
-			<a href="support/index.html" class="card">
-				<span class="icon">./support </span>
-				<h2>Módulo: Suporte</h2>
-				<p>> Local de arquivos para baixar, acesso a sites entre outros.</p>
-			</a>
+    <section id="home" class="hero">
+        <h1>Dreyson Santiago</h1>
+        <p>Desenvolvedor de Software em formação | Especialista em Suporte Técnico há 9 anos</p>
+        <a href="#sobre" class="btn">Saiba Mais</a>
+    </section>
 
-			<a href="#" class="card">
-				<span class="icon"></span><br>
-				<h2>Módulo: Jobs</h2>
-				<p>> Em breve </p>
-			</a>
-		</main>
-	</body>
+    <section id="sobre">
+        <div class="section-title">
+            <h2>Sobre Mim</h2>
+        </div>
+        <div class="about-container">
+            <div class="textoSobre">
+                <p>
+                Minha trajetória de quase uma década no suporte técnico moldou uma mentalidade analítica voltada para 
+                a experiência do usuário e a estabilidade de sistemas. Hoje, atuo como suporte externo enquanto aprofundo 
+                meus conhecimentos em desenvolvimento de software. Acredito que a boa programação nasce da compreensão 
+                profunda das dores do cliente — algo que vivenciei diariamente nos últimos 9 anos. Sigo em constante evolução técnica, 
+                traduzindo desafios operacionais em linhas de código eficientes.</p>
+                <p style="margin-top: 15px;"><strong>Idiomas:</strong> Português (Nativo) e Inglês (Técnico).</p>
+            </div>
+            <div>
+                <h3>Formação Acadêmica</h3>
+                <div class="formation-item">
+                    <strong>Superior em Analise e Desenvolvimento de Sistemas</strong><br>
+                    UniFatecie | 12/2026 (Em andamento)
+                </div>
+                <div class="formation-item">
+                    <strong>Programador de Sistemas</strong><br>
+                    IFRN | Concluído em 03/2020
+                </div>
+                <div class="formation-item">
+                    <strong>Técnico em Multimídia</strong><br>
+                    Unibratec | Concluído em 06/2012
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="habilidades" style="background-color: var(--bg-light);">
+        <div class="section-title">
+            <h2>Habilidades</h2>
+        </div>
+        <div class="skills-container">
+            <div class="skill-card">
+                <i class="fas fa-code"></i>
+                <h3>Hard Skills</h3>
+                <p>HTML5, CSS3, JavaScript, SQL, Lógica de Programação e Git/GitHub.</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-users"></i>
+                <h3>Soft Skills</h3>
+                <p>Trabalho em equipe, Iniciativa, Aprendizado Contínuo, Adaptabilidade.</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-certificate"></i>
+                <h3>Cursos Recentes</h3>
+                <p>Formações DIO 2024: Web Developer (HTML, CSS, JS) e Lógica.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos">
+        <div class="section-title">
+            <h2>Projetos</h2>
+        </div>
+        <div style="text-align: center; color: #666;">
+            <p>Meus projetos estão sendo documentados e versionados no GitHub.</p>
+            <br>
+            <a href="https://github.com/dreysonsilva" target="_blank" class="btn" style="background: #333;">Ver Repositórios</a>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="contact-box">
+            <h2>Vamos conversar?</h2>
+            <p>Estou em busca de novos desafios no desenvolvimento de software.</p>
+            
+            <div class="contact-info">
+                <a href="tel:+5581999845890"><i class="fas fa-phone"></i> (81) 9 9984.5890</a>
+                <a href="mailto:dreysoninformar@gmail.com"><i class="fas fa-envelope"></i> dreysoninformar@gmail.com</a>
+                <span><i class="fas fa-map-marker-alt"></i> Paulista, Pernambuco</span>
+            </div>
+
+            <div class="social-icons">
+                <a href="https://linkedin.com/in/dreyson/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/dreysonsilva" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="http://www.dreyson.com.br" target="_blank"><i class="fas fa-globe"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Dreyson Santiago | Desenvolvido com HTML e CSS</p>
+    </footer>
+
+</body>
 </html>
