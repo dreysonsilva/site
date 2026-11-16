@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carta para o meu Sobrinho</title>
+  <!-- Importando fontes elegantes do Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #e9e4dc;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 40px 20px;
+      font-family: 'Lora', Georgia, serif;
+      color: #2c2a29;
+    }
+
+    /* Folha da carta */
+    .carta-container {
+      background-color: #fdfbf7;
+      max-width: 720px;
+      width: 100%;
+      padding: 60px 65px;
+      border-radius: 6px;
+      box-shadow: 0 12px 35px rgba(0, 0, 0, 0.12);
+      border-top: 8px solid #1e3a5f; /* Detalhe azul marinho no topo */
+      position: relative;
+    }
+
+    /* Linha decorativa sutil */
+    .cabecalho {
+      border-bottom: 1px solid #e0d8cc;
+      padding-bottom: 20px;
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+
+    .saudacao {
+      font-family: 'Caveat', cursive;
+      font-size: 2.4rem;
+      color: #1e3a5f;
+    }
+
+    .etiqueta {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: #8c8275;
+    }
+
+    .corpo-texto p {
+      font-size: 1.15rem;
+      line-height: 1.85;
+      margin-bottom: 22px;
+      text-align: justify;
+    }
+
+    /* Destaque no último parágrafo */
+    .destaque {
+      background-color: #f4efe6;
+      border-left: 4px solid #1e3a5f;
+      padding: 18px 22px;
+      border-radius: 0 6px 6px 0;
+      font-style: italic;
+      margin-top: 30px;
+    }
+
+    .assinatura {
+      margin-top: 45px;
+      text-align: right;
+    }
+
+    .assinatura p {
+      font-size: 1rem;
+      color: #5c5752;
+      margin-bottom: 5px;
+    }
+
+    .assinatura span {
+      font-family: 'Caveat', cursive;
+      font-size: 2rem;
+      color: #1e3a5f;
+    }
+
+    /* Ajustes para ficar perfeito na hora de imprimir (Ctrl + P) */
+    @media print {
+      body {
+        background-color: #ffffff;
+        padding: 0;
+      }
+      .carta-container {
+        box-shadow: none;
+        border: none;
+        border-top: 6px solid #1e3a5f;
+        padding: 20px;
+        max-width: 100%;
+      }
+    }
+
+    /* Ajuste para telas de celular */
+    @media (max-width: 600px) {
+      .carta-container {
+        padding: 35px 25px;
+      }
+      .cabecalho {
+        flex-direction: column;
+        gap: 5px;
+      }
+      .corpo-texto p {
+        text-align: left;
+        font-size: 1.05rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <main class="carta-container">
+    <header class="cabecalho">
+      <h1 class="saudacao">Olá, sobrinho!</h1>
+      <span class="etiqueta">Nova Etapa • Faculdade</span>
+    </header>
+
+    <section class="corpo-texto">
+      <p>
+        Queria falar que sua mãe queria que eu escrevesse uma carta à mão, mas com todas as tecnologias que temos, escrevi pelo computador e estou pedindo para ela imprimir.
+      </p>
+
+      <p>
+        Cara, que esta fase da sua vida seja a melhor. Você vai conhecer muitas pessoas boas, aproveite o máximo para dar o seu melhor, seja o melhor, se destaque e se mostre mesmo.
+      </p>
+
+      <p>
+        Aproveite o seu momento. Nunca, mas nunca mesmo, pare de estudar, pois é assim que pessoas boas conseguem sair de onde estão e ir para lugares onde nunca pensaram em estar.
+      </p>
+
+      <p class="destaque">
+        Você não é só o orgulho da sua mãe, mas de todos que convivem com você, pois uma pessoa ímpar é difícil de conhecer.
+      </p>
+    </section>
+
+    <footer class="assinatura">
+      <p>Com muito orgulho,</p>
+      <span>Seu Tio</span>
+    </footer>
+  </main>
+
+</body>
+</html>
